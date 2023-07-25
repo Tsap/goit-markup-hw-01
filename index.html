@@ -4,32 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio - Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1>
-        <a href="#">Web<span>Studio</span></a>
-      </h1>
-      <nav>
+      <div class="logo">
+        <h1>
+          <a href="#">Web<span class="logo-black">Studio</span></a>
+        </h1>
+      </div>
+      <nav class="menu">
         <ul>
           <li><a href="#agencja">Agencja</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#kontakt">Kontakt</a></li>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-      </ul>
+      <div class="adress-top">
+        <ul>
+          <li>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        </ul>
+      </div>
     </header>
     <main>
-      <div>
-        <p>efektywne rozwiązania dla waszego biznesu</p>
-        <input type="button" value="Zamów usługe" />
+      <div class="main-header">
+        <p>efektywne rozwiązania<br />dla waszego biznesu</p>
+        <input class="main-header-button" type="button" value="Zamów usługe" />
       </div>
-      <div>
+      <div class="atuty">
         <ul>
           <li>
             <h4>Lorem ipsum</h4>
@@ -61,7 +72,7 @@
           </li>
         </ul>
       </div>
-      <div>
+      <div class="what-we-do">
         <h2>Czym się zajmujemy</h2>
         <ul>
           <li>
@@ -75,7 +86,7 @@
           </li>
         </ul>
       </div>
-      <div>
+      <div class="our-team">
         <h2>Nasz zespół</h2>
         <ul>
           <li>
@@ -86,7 +97,7 @@
                 width="270"
               />
               <figcaption>
-                John Doe<br />
+                <span class="name-team">John Doe</span><br />
                 Product Designer
               </figcaption>
             </figure>
@@ -98,31 +109,39 @@
                 alt="Frontend Developer"
                 width="270"
               />
-              <figcaption>John Doe<br />Frontend Developer</figcaption>
+              <figcaption>
+                <span class="name-team">John Doe</span><br />Frontend Developer
+              </figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img src="images/photo_2.jpg" alt="Marketing" width="270" />
-              <figcaption>John Doe<br />Marketing</figcaption>
+              <figcaption>
+                <span class="name-team">John Doe</span><br />Marketing
+              </figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img src="images/photo_3.jpg" alt="UI Designer" width="270" />
-              <figcaption>John Doe<br />UI Designer</figcaption>
+              <figcaption>
+                <span class="name-team">John Doe</span><br />UI Designer
+              </figcaption>
             </figure>
           </li>
         </ul>
       </div>
     </main>
     <footer>
-      <h3>Web<span>Studio</span></h3>
-      <address>
-        <p>m. Warszawa, Aleje Jerozolimskie 21</p>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+48111111111">+48 111 111 111</a>
-      </address>
+      <div class="adress-footer">
+        <h3>Web<span>Studio</span></h3>
+        <address>
+          <p>m. Warszawa, Aleje Jerozolimskie 21</p>
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a href="tel:+48111111111">+48 111 111 111</a>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
