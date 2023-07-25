@@ -32,7 +32,7 @@ header {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
-  line-height: normal;
+  line-height: 16px;
 }
 
 .menu ul {
@@ -61,7 +61,7 @@ header {
   font-family: Roboto;
   font-size: 14px;
   font-weight: 500;
-  line-height: normal;
+  line-height: 16px;
 }
 
 .adress-top ul {
@@ -96,7 +96,7 @@ header {
   color: #fff;
   font-family: Roboto;
   font-size: 44px;
-  font-style: normal;
+  font-style: nor mal;
   font-weight: 900;
   line-height: 60px; /* 136.364% */
   letter-spacing: 2.64px;
